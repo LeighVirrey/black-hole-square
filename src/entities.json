@@ -48,7 +48,9 @@
         "snatch",
         "swivel",
         "turmoil",
-        "end"
+        "end",
+        "level1",
+        "level2"
       ],
       "wm": [
         "titlescreen",
@@ -73,7 +75,9 @@
         "snatch",
         "swivel",
         "turmoil",
-        "end"
+        "end",
+        "level1",
+        "level2"
       ],
       "current": 0
     }
@@ -465,6 +469,34 @@
       "taps": 10
     }
   },
+  "Level1": {
+    "puzzle": {
+      "grid": [
+        0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0,
+        0, 0, 4, 0, 0, 0,
+        0, 0, 0, 1, 0, 0,
+        0, 0, 0, 2, 0, 0,
+        0, 0, 0, 0, 0, 0
+      ],
+      "init": true,
+      "taps": 50
+    }
+  },
+  "Level2": {
+    "puzzle": {
+      "grid": [
+        0, 0, 0, 5, 0, 0,
+        0, 0, 0, 0, 0, 0,
+        0, 3, 0, 0, 8, 0,
+        0, 0, 0, 0, 1, 0,
+        0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0
+      ],
+      "init": true,
+      "taps": 40
+    }
+  },  
   "level": {
     "state": {
       "draws": [],
