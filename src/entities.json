@@ -50,6 +50,7 @@
         "snatch",
         "swivel",
         "turmoil",
+        "ultimate",
         "end"
       ],
       "wm": [
@@ -77,6 +78,7 @@
         "snatch",
         "swivel",
         "turmoil",
+        "ultimate",
         "end"
       ],
       "current": 0
@@ -495,6 +497,20 @@
       ],
       "init": true,
       "taps": 10
+    }
+  },
+  "ultimate": {
+    "puzzle": {
+      "grid": [
+      8, 0, 1, 0, 0, 7,
+      0, 6, 0, 6, 0, 0,
+      0, 0, 4, 0, 0, 7,
+      0, 2, 0, 0, 3, 0,
+      0, 0, 0, 7, 0, 8,
+      1, 0, 5, 0, 0, 7
+      ],
+      "init": true,
+      "taps": 25
     }
   },
 
